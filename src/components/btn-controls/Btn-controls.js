@@ -31,7 +31,7 @@ export const BtnControls = ({ isDisabled }) => {
           color: isDisabled ? "white" : "",
         }}
       >
-        {el.name}
+        <span className="btn-control__text">{el.name}</span>
       </Button>
     );
   });
