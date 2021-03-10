@@ -1,7 +1,7 @@
 import * as axios from "axios";
 
 const instance = axios.create({
-  withCredentials: false, //обошел так ошибку CORSE КАК можно и нужно иначе?
+  withCredentials: false,
   baseURL: "http://www.filltext.com/",
 });
 

@@ -56,7 +56,7 @@ export const getDatas = (size) => async (dispatch) => {
         dispatch(hideIsDisabled(false))
      }
   } catch (error) {
-      alert('Ошибка при отправки запроса, повторите попытку позже.')
+      alert('Ошибка при отправки запроса, повторите попытку позже')
       dispatch(hideIsDisabled(false))
   } 
 };
